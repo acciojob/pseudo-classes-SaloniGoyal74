@@ -4,10 +4,71 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+		:root{
+			background-color:rgb(135, 206, 235);
+		}
+
+		p:first-child{
+			color: white;
+			background-color: black;
+		}
+
+		p:nth-child(2) {
+			color:standard;
+		}
+
+		p:last-child{
+			color:red;
+		}
+
+		li{
+			width:50%;
+			padding:10px;
+			background-color:grey;
+		}
+
+		li:nth-child(odd){
+			background-color:white;
+		}
+
+		li:first-child, li:last-child {
+			font-size:22px;
+		}
+
+		li:nth-child(3){
+			background-color:pink;
+		}
+		
+	</style>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+	<div>
+		<p>First paragraph</p>
+	
+		<p>
+			This handy tool helps you create dummy text for all your layout needs. We are gradually adding new functionality and we welcome your suggestions and feedback.
+		</p>
+	
+		<p>
+			This handy tool helps you create dummy text for all your layout needs. We are gradually adding new functionality and we welcome your suggestions and feedback.
+		</p>
+	
+		<p>
+			This handy tool helps you create dummy text for all your layout needs. We are gradually adding new functionality and we welcome your suggestions and feedback.
+		</p>
+	</div>
+	<div>
+		<ul>
+			<li>First Item</li>
+			<li>Second Item</li>
+			<li>Third Item</li>
+			<li>Fourth Item</li>
+			<li>Fifth Item</li>
+		</ul>
+	</div>
+	
     <script type="text/javascript" src="./script.js">
 </script>
 
